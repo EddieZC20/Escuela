@@ -10,7 +10,9 @@ int main()
 do{
     cout<<"Introduce los segundo que quieras transformar a minutos(0-3600s) "<<endl;
     cin>>x;
+
     system("cls");
+
     }while(x<0 || x>3600);
     m=x/60;
     s=x%60;
